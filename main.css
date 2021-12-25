@@ -1,0 +1,113 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: #FFFFFF;
+  width: 100%; 
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  box-shadow: 0 5px 8px #00000021
+}
+
+.logo img {
+  width: 151px;
+  margin-left: 0;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  float: left;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+ nav {
+   width: 1320px;
+   height: 104px;
+ } 
+
+ nav ul li{
+   display: inline;
+   float: right; 
+   padding: 38px 50px;
+ }
+
+ nav ul li a{
+   font-size: 21px;
+   text-decoration: none;
+   font-weight: 500;
+ }
+
+ .intro {
+   max-width: 100%;
+   height: 766px;
+   background: #FFFFFF;
+ }
+
+ .main_banner {
+   width: 1320px;
+   height: 766px;
+   background-image: url(/images/그룹\ 9.png);
+   margin: 0 auto;
+   padding: 295px 204px;
+   box-sizing: border-box;
+ }
+
+ .main_banner h1 {
+   font-size: 70px;
+   font-weight: 832;
+   color: #FFFFFF;
+   font-family: "나눔고딕OTf 에코";
+   font-style: bold;
+ }
+ .main_banner h4 {
+   font-size: 26px;
+   font-weight: 816px;
+   color: #FFFFFF;
+   line-height: 40px;
+   margin-bottom: 70px;
+   font-family: "나눔고딕";
+ }
+ 
+ .second_banner {
+  max-width: 1320px; 
+  height: 932px;
+  background-image: url(/images/마스크\ 그룹\ 10.png);
+  margin: 0 auto;
+  padding: 349px 130px;
+  box-sizing: border-box;
+ }
+
+ .main_banner img {
+   width: 110px;
+   height: 69.29px;
+ }
+ .second_banner h2 {
+   font-size: 65px;
+   font-family: "나눔스퀘어라운드";
+   font-style: Bold;
+   color:#138B2B;
+ }
+ .second_banner p {
+   font-size: 25px;
+   font-family: "나눔스퀘어_ac";
+   line-height: 50px;
+ }
+
+
+
+footer p{
+  background-color: #FFFFFF;
+  text-align: center;
+  height: 300px;
+  margin: 0;
+  padding: 150px 0;
+  box-sizing: border-box;
+  color: #138B2B;
+  font-size: 20px;
+}
